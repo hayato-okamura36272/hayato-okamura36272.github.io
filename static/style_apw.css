@@ -1,0 +1,362 @@
+@charset "utf-8";
+
+.ryumin{
+	font-family: Ryumin Bold KL,"リュウミン B-KL",YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif"	
+}
+#content{
+	font-family: Yu Gothic Medium,"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.56;
+	font-size: 16px;
+	font-weight: 400;
+}
+h3{
+	font-size: 46px;
+    font-feature-settings: "palt";
+    letter-spacing: 0.075em;
+	font-weight: 700;
+	color: #c78e00;
+	padding-bottom: 0.5em;
+}
+h4{
+	font-size: 18px;
+    font-feature-settings: "palt";
+    letter-spacing: 0.075em;
+	font-weight: 700;
+	color: #c78e00;
+	padding-bottom: 0.1em;
+	margin-top: 2em;
+}
+h5{
+	font-size: 28px;
+    font-feature-settings: "palt";
+    letter-spacing: 0.075em;
+	padding-bottom: 1vw;
+}
+#mainnav a {
+    color: #000;
+	font-family: "Times Roman",Times,"Times New Roman",  "serif";
+}
+.showPc{
+	display:block;
+}
+.showSp{
+	display:none;
+}
+.small{
+	font-size: smaller;
+}
+@media only screen and (min-width: 800px){
+	#sns {
+	    margin-top:0;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.inner {
+		width: 80%;
+		margin: 0 auto 0 auto;
+	}
+}
+.article{
+	padding-bottom: 0;
+}
+.article img {
+    margin: 5px 20px 73px 0;
+	width: 370px;
+	height: auto;
+}
+.brackets{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	margin:45px 0;
+}
+.brackets1{
+	flex-basis:100%;
+}
+.brackets1s{
+    flex-basis: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.brackets2{
+	flex-basis:48%;
+	padding-bottom: 45px;
+}
+.brackets3{
+	flex-basis:32%;
+
+}
+.bracketsBtn li{
+	list-style-type:none;
+	margin-bottom:20px;
+}
+.bracketsBtn a{
+	display:block;
+	padding:25px;
+	font-weight:bold;
+	color:#FFF;
+	text-decoration:none;
+	text-align:left;
+	position:relative;
+	background-color: #bc9500;
+	line-height: 0;
+}
+.bracketsBtn a:hover{
+	opacity:0.8;
+	color:#FFF;
+}
+#TROUBLE td{
+	font-weight: 700;
+}
+#TROUBLE td.price{
+	padding-right: 0;
+}
+#TROUBLE td.intro{
+	font-weight: 400;
+    font-size: smaller;
+    padding-left: 1.5em;
+    padding-bottom: 1em;
+}
+
+section h2 {
+    margin: 50px auto 50px 0;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 80px;
+	position: relative;
+	font-family: "Times Roman",Times,"Times New Roman",  "serif";
+	font-feature-settings: "palt";
+	letter-spacing: 0.075em;
+}
+section h2:before {
+    content: "";
+    border: 2px solid #c78e00;
+    display: inline-block;
+    width: 70px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+section h2 span {
+    padding-bottom:0;
+    border-bottom: none;
+}
+#NEWS h2 {
+    margin-top:70px;
+}
+#CONCEPT p {
+	font-size: 16px;
+}
+	#CONCEPT .article img {
+	    margin-left: 0;
+		max-width: 250px;
+	}
+	#CONCEPT img {
+	    margin-left: 0;
+	}
+#TROUBLE .article{
+	position: relative;
+	display: flex;
+    flex-wrap: wrap;
+	align-items: flex-start;
+}
+#TROUBLE .article:after{
+	content:"";
+	background-image: url("../images/trouble_arrow.png");
+	width: 34px;
+	position: absolute;
+	top: 47%;
+    transform: translateY(-50%);
+	left: 86px;
+    height: 95px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#TROUBLE p{
+	margin-bottom: 1em;
+}
+#TROUBLE td {
+    padding-right: 20px;
+}
+#TROUBLE li span {
+    background-image: url(../images/ico_check.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+	background-size: 0.8em;
+	padding-left: 1.1em;
+}
+#PRICE .ti{
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+#PRICE dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+#PRICE dt{
+    width: 70%;
+}
+#PRICE dd{
+    width: 20%;
+	text-align: right;
+}
+#PRICE dt,
+#PRICE  dd {
+	margin-bottom: 5px;
+}
+#VOICE dl {
+	border: 1px solid #b0b0b0;
+	padding: 18px 19px;
+	margin-bottom: 37px;
+}
+#VOICE dt{
+	padding-bottom: 17px;
+	border-bottom: 1px dashed #b0b0b0;
+}
+#VOICE  dd {
+	padding-top: 30px;
+
+}
+#VOICE  dd h4{
+	font-size: 16px;
+	padding-bottom: 1em;
+	margin-top:0;
+}
+#VOICE .attr{
+	margin-top: 1em;
+	padding-left: 1em;
+	background-image: url("../images/ico_star.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 108px;
+}
+#QA dl {
+	font-size: 18px;
+}
+#QA dt{
+	position: relative;
+	margin-bottom: 17px;
+	padding-left: 2em;
+	font-weight: 700;
+}
+#QA dt:before,
+#QA  dd:before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-weight: 700;
+}
+#QA dt:before{
+	content: "Q";
+	color: #ff0000;
+}
+#QA  dd:before{
+	content: "A";
+	color: #0000ff;
+}
+#QA  dd {
+	position: relative;
+	margin-bottom: 45px;
+	padding-left: 2em;
+}
+#CONTACT .inner{
+	font-size: 12px;
+}
+#CONTACT p{
+	margin-bottom: 1em;
+}
+@media only screen and (max-width: 800px){
+	#content {
+    	padding-top: 60px;
+	}
+	#CONCEPT .article img {
+	    margin-bottom: 20px;
+		width:70%;
+		max-width: 250px;
+		float: none;
+	}
+	h3 {
+    font-size: 6vw;
+	}
+	h5 {
+	padding-bottom: 2vw;
+    font-size: 5vw;
+	width: 100%;
+	}
+	.brackets2{
+		flex-basis:100%;
+	}
+	.showPc{
+		display:none !important;
+	}
+	.showSp{
+		display:block !important;
+	}
+	#TROUBLE .article{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#TROUBLE .article img {
+		width: 100%;
+		order: 2;
+	}
+	.troubleTop {
+		width: 100%;
+		order: 1;
+		padding-bottom: 3vw;
+	}
+	.troubleUnder,
+	.troubleUnder2{
+		width: 100%;
+		order: 3;
+		padding-bottom: 3vw;
+	}
+	#TROUBLE tr,
+	#TROUBLE td{
+		vertical-align: top;
+		font-size: 14px;
+	}
+	#TROUBLE td {
+    padding-bottom: 1vw;
+	padding-right: 0;
+	}
+		#TROUBLE .article:after {
+			display: none;
+	}
+	#TROUBLE td.price{
+		padding-right: 0;
+		text-align: right;
+	}
+	#PRICE dd{
+		width: 30%;
+	}
+}
+@media only screen and (min-width: 800px) and (max-width: 1200px){
+	.article img {
+	width: 153px;
+    margin-bottom:40px;
+	}
+	.troubleTop {
+    width: calc(100% - 173px);
+	}
+	.troubleUnder{
+	    margin-bottom:40px;
+	}
+	h3 {
+    font-size: 40px;
+	}
+	#TROUBLE .article:after {
+		width: 20px;
+		top: 212px;
+		left: 28px;
+	}
+}
+#GUIDE p{
+	margin-left: 1em;
+}
+

@@ -1,0 +1,70 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp",
+    "build": "NODE_ENV=production gulp build",
+    "preview": "NODE_ENV=production gulp production"
+  },
+  "volta": {
+    "node": "18.20.0"
+  },
+  "engines": {
+    "node": "18.x",
+    "npm": "🚨pnpmを使用してください",
+    "yarn": "🚨pnpmを使用してください"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@rollup/plugin-alias": "4.0.2",
+    "@rollup/plugin-commonjs": "24.0.0",
+    "@rollup/plugin-node-resolve": "15.0.1",
+    "@rollup/plugin-replace": "5.0.2",
+    "@types/animejs": "3.1.12",
+    "@types/youtube-player": "5.5.11",
+    "autoprefixer": "10.4.13",
+    "browser-sync": "^2.27.11",
+    "css-mqpacker": "7.0.0",
+    "del": "7.0.0",
+    "esbuild": "0.17.0",
+    "gulp": "^4.0.2",
+    "gulp-changed": "4.0.3",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-ejs": "^5.1.0",
+    "gulp-if": "3.0.0",
+    "gulp-imagemin": "8.0.0",
+    "gulp-notify": "4.0.0",
+    "gulp-plumber": "1.2.1",
+    "gulp-postcss": "9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "1.1.4",
+    "gulp-sass": "5.1.0",
+    "gulp-sass-glob-use-forward": "0.1.3",
+    "imagemin-mozjpeg": "10.0.0",
+    "postcss": "8.4.21",
+    "postcss-media-minmax": "5.0.0",
+    "rollup": "3.10.0",
+    "rollup-plugin-esbuild": "5.0.0",
+    "sass": "1.57.1",
+    "sort-css-media-queries": "2.1.0",
+    "typescript": "4.9.4"
+  },
+  "browserslist": [
+    "> 0.2%, not dead",
+    "not IE 11"
+  ],
+  "dependencies": {
+    "@splidejs/splide": "4.1.4",
+    "animejs": "3.2.2",
+    "youtube-player": "5.6.0"
+  }
+}
