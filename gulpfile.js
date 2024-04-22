@@ -21,7 +21,7 @@ import ejs from 'gulp-ejs';
 import { rollup } from 'rollup';
 import { deleteAsync } from 'del';
 import path from 'path';
-import minmax  from 'postcss-media-minmax';
+import minmax from 'postcss-media-minmax';
 
 // Rollupの設定ファイル
 import deploy from './rollup.config.js';
@@ -48,7 +48,7 @@ const paths = {
     },
     static: {
         src: 'static/**/*.*',
-        dest: 'public',
+        dest: 'public/static',
     },
     dist: {},
 };
@@ -162,7 +162,7 @@ const Imagemin = (done) => {
         .pipe(changed(paths.images.dest))
         .pipe(imagemin([mozjpeg({ quality: 90 })]))
         .pipe(dest(paths.images.dest))
-        // .pipe(server.stream());
+    // .pipe(server.stream());
     done();
 };
 
