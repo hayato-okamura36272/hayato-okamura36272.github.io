@@ -164,7 +164,7 @@ section h2 span {
 }
 #TROUBLE .article:after{
 	content:"";
-	background-image: url("/assets/img/trouble_arrow.png");
+	background-image: url("/images/trouble_arrow.png");
 	width: 34px;
 	position: absolute;
 	top: 47%;
@@ -182,7 +182,7 @@ section h2 span {
     padding-right: 20px;
 }
 #TROUBLE li span {
-    background-image: url(/assets/img/ico_check.png);
+    background-image: url(/images/ico_check.png);
     background-repeat: no-repeat;
     background-position: left center;
 	background-size: 0.8em;
@@ -230,7 +230,7 @@ section h2 span {
 #VOICE .attr{
 	margin-top: 1em;
 	padding-left: 1em;
-	background-image: url("/assets/img/ico_star.png");
+	background-image: url("/images/ico_star.png");
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: 108px;
