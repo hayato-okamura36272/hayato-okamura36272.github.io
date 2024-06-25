@@ -29,7 +29,7 @@ const aliasSetting = {
 export const deploy = {
     input: './src/js/app.ts',
     output: {
-        file: './public/assets/js/bundle.js',
+        file: './public/js/bundle.js',
         format: 'esm',
     },
     plugins: [
