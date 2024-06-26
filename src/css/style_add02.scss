@@ -1,0 +1,38 @@
+$device_pc: 1280;
+$device_tab: 1140;
+$device_sp: 750;
+$breakpoint-tablet: 1141px;
+$breakpoint-mobile: 769px;
+
+#content {
+    @media only screen and (max-width: 800px){
+        padding-top: 0;
+    }
+}
+
+.swiper {
+    &__title {
+        font-family: "Times Roman", Times, "Times New Roman", "serif";
+        font-size: calc(52 / #{$device_pc} * 100vw);
+        position: absolute;
+        bottom: calc(100 / #{$device_pc} * 100vw);
+        left: calc(50 / #{$device_pc} * 100vw);
+        z-index: 2;
+        color: #fff;
+        text-shadow:3px 2px 0px rgb(214, 194, 173);
+    }
+}
+
+#CONCEPT {
+    .article {
+        &__title {
+            font-family: "serif";
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 1.4;
+            letter-spacing: .1em;
+            color: #c78e00;
+        }
+    }
+
+}

@@ -43,7 +43,7 @@ const paths = {
         dest: 'public/js',
     },
     images: {
-        src: 'src/img/**/*.{jpg,jpeg,png,svg,gif}',
+        src: 'src/images/**/*.{jpg,jpeg,png,svg,gif}',
         dest: 'public/images',
     },
     static: {
@@ -162,7 +162,7 @@ const Imagemin = (done) => {
         .pipe(changed(paths.images.dest))
         .pipe(imagemin([mozjpeg({ quality: 90 })]))
         .pipe(dest(paths.images.dest))
-    // .pipe(server.stream());
+    .pipe(server.stream());
     done();
 };
 

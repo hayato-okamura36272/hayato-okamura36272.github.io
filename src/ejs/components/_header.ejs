@@ -1,97 +1,84 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="icon" href="images/logo.png" sizes="any" />
-        <meta http-equiv="Pragma" content="no-cache" />
-        <meta http-equiv="Cache-Control" content="no-cache" />
-        <meta
-            name="description"
-            content="1//jour hairworks | 埼玉県朝霞市 オトナの女性のヘアサロン アンジュールヘアーワークス"
-        />
-        <meta name="viewport" content="width=device-width" />
-        <title>
-            1//jour hairworks | 埼玉県朝霞市 オトナの女性のヘアサロン
-            アンジュールヘアーワークス
-        </title>
-        <link rel="stylesheet" media="all" href="/css/style.css" />
-        <link rel="stylesheet" media="all" href="/css/style_add.css" />
-        <link rel="stylesheet" media="all" href="/css/style_apw.css" />
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-        <script src="/js/script.js"></script>
-        <script
-            type="text/javascript"
-            src="//webfonts.xserver.jp/js/xserver.js"
-        ></script>
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600;700&display=swap"
-            rel="stylesheet"
-        />
-        <script type="text/javascript" src="/js/swiper.js"></script>
-        <style>
-            .swiper-horizontal
-                > .swiper-pagination-bullets
-                .swiper-pagination-bullet,
-            .swiper-pagination-horizontal.swiper-pagination-bullets
-                .swiper-pagination-bullet {
-                margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 11px);
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="images/logo.png" sizes="any" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta name="description" content="1//jour hairworks | 埼玉県朝霞市 オトナの女性のヘアサロン アンジュールヘアーワークス" />
+    <meta name="viewport" content="width=device-width" />
+    <title>
+        1//jour hairworks | 埼玉県朝霞市 オトナの女性のヘアサロン
+        アンジュールヘアーワークス
+    </title>
+    <link rel="stylesheet" media="all" href="/css/style.css" />
+    <link rel="stylesheet" media="all" href="/css/style_add.css" />
+    <link rel="stylesheet" media="all" href="/css/style_apw.css" />
+    <link rel="stylesheet" media="all" href="/css/style_add02.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script type="text/javascript" src="//webfonts.xserver.jp/js/xserver.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <script type="text/javascript" src="/js/swiper.js"></script>
+    <style>
+        .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+        .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+            margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 11px);
+        }
+
+        .swiper-pagination-bullet {
+            background: var(--swiper-pagination-bullet-inactive-color,
+                    #fff);
+            opacity: var(--swiper-pagination-bullet-inactive-opacity, 1);
+        }
+
+        .swiper-pagination-bullet-active {
+            opacity: var(--swiper-pagination-bullet-opacity, 1);
+            background: #666;
+        }
+
+        @keyframes zoom-in {
+            0% {
+                transform: scale(1);
             }
 
-            .swiper-pagination-bullet {
-                background: var(
-                    --swiper-pagination-bullet-inactive-color,
-                    #fff
-                );
-                opacity: var(--swiper-pagination-bullet-inactive-opacity, 1);
+            100% {
+                transform: scale(1.07);
             }
+        }
 
-            .swiper-pagination-bullet-active {
-                opacity: var(--swiper-pagination-bullet-opacity, 1);
-                background: #666;
-            }
+        .swiper-slide-active img,
+        .swiper-slide-duplicate-active img,
+        .swiper-slide-prev img {
+            animation: zoom-in 10s linear 0s 1 normal both;
+        }
 
-            @keyframes zoom-in {
-                0% {
-                    transform: scale(1);
-                }
+        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-pagination-bullets.swiper-pagination-horizontal,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
+            bottom: 0;
+        }
 
-                100% {
-                    transform: scale(1.07);
-                }
-            }
+        .swiper {
+            padding-top: 55.8324%;
+            position: relative;
+        }
 
-            .swiper-slide-active img,
-            .swiper-slide-duplicate-active img,
-            .swiper-slide-prev img {
-                animation: zoom-in 10s linear 0s 1 normal both;
-            }
+        #mainImg {
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
 
-            .swiper-horizontal > .swiper-pagination-bullets,
-            .swiper-pagination-bullets.swiper-pagination-horizontal,
-            .swiper-pagination-custom,
-            .swiper-pagination-fraction {
-                bottom: 0;
-            }
+<body id="top"></body>
 
-            .swiper {
-                padding-top: 64.8324%;
-                position: relative;
-            }
-
-            #mainImg {
-                overflow: hidden;
-                position: absolute;
-                top: 0;
-                left: 0;
-            }
-        </style>
-    </head>
-
-    <body id="top"></body>
 </html>

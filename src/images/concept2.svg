@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1210.1 817.5">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.18em;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20 {
+        isolation: isolate;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-18, .cls-19, .cls-20 {
+        fill: #000;
+        font-family: KozGoPr6N-Regular-83pv-RKSJ-H, 'Kozuka Gothic Pr6N';
+      }
+
+      .cls-2, .cls-5, .cls-8, .cls-10 {
+        font-size: 59.99px;
+      }
+
+      .cls-21 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-22 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-23 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-24, .cls-25, .cls-26 {
+        fill: none;
+      }
+
+      .cls-24, .cls-27, .cls-28, .cls-29 {
+        stroke-width: 0px;
+      }
+
+      .cls-30 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-3, .cls-7, .cls-12, .cls-13, .cls-14, .cls-15, .cls-18 {
+        font-size: 52px;
+      }
+
+      .cls-4, .cls-6, .cls-9, .cls-19, .cls-20 {
+        font-size: 34.99px;
+      }
+
+      .cls-31 {
+        letter-spacing: -.28em;
+      }
+
+      .cls-32 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-25 {
+        stroke-miterlimit: 4;
+        stroke-width: 1.5px;
+      }
+
+      .cls-25, .cls-26 {
+        stroke: #dfdbe0;
+      }
+
+      .cls-33 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-34 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-35 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-36 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-37 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-38 {
+        clip-path: url(#clippath-7);
+      }
+
+      .cls-39 {
+        clip-path: url(#clippath-8);
+      }
+
+      .cls-40 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-41 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-42 {
+        clip-path: url(#clippath-9);
+      }
+
+      .cls-43 {
+        letter-spacing: -.32em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-44 {
+        letter-spacing: -.16em;
+      }
+
+      .cls-45 {
+        letter-spacing: -.16em;
+      }
+
+      .cls-27 {
+        fill: #f9fd4d;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-26 {
+        stroke-width: 1.5px;
+      }
+
+      .cls-10 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-46 {
+        clip-path: url(#clippath-20);
+      }
+
+      .cls-47 {
+        clip-path: url(#clippath-21);
+      }
+
+      .cls-48 {
+        clip-path: url(#clippath-24);
+      }
+
+      .cls-49 {
+        clip-path: url(#clippath-23);
+      }
+
+      .cls-50 {
+        clip-path: url(#clippath-22);
+      }
+
+      .cls-51 {
+        clip-path: url(#clippath-25);
+      }
+
+      .cls-52 {
+        clip-path: url(#clippath-44);
+      }
+
+      .cls-53 {
+        clip-path: url(#clippath-45);
+      }
+
+      .cls-54 {
+        clip-path: url(#clippath-40);
+      }
+
+      .cls-55 {
+        clip-path: url(#clippath-42);
+      }
+
+      .cls-56 {
+        clip-path: url(#clippath-41);
+      }
+
+      .cls-57 {
+        clip-path: url(#clippath-47);
+      }
+
+      .cls-58 {
+        clip-path: url(#clippath-43);
+      }
+
+      .cls-59 {
+        clip-path: url(#clippath-46);
+      }
+
+      .cls-60 {
+        clip-path: url(#clippath-48);
+      }
+
+      .cls-61 {
+        clip-path: url(#clippath-49);
+      }
+
+      .cls-62 {
+        clip-path: url(#clippath-27);
+      }
+
+      .cls-63 {
+        clip-path: url(#clippath-28);
+      }
+
+      .cls-64 {
+        clip-path: url(#clippath-26);
+      }
+
+      .cls-65 {
+        clip-path: url(#clippath-29);
+      }
+
+      .cls-66 {
+        clip-path: url(#clippath-34);
+      }
+
+      .cls-67 {
+        clip-path: url(#clippath-35);
+      }
+
+      .cls-68 {
+        clip-path: url(#clippath-36);
+      }
+
+      .cls-69 {
+        clip-path: url(#clippath-37);
+      }
+
+      .cls-70 {
+        clip-path: url(#clippath-39);
+      }
+
+      .cls-71 {
+        clip-path: url(#clippath-33);
+      }
+
+      .cls-72 {
+        clip-path: url(#clippath-32);
+      }
+
+      .cls-73 {
+        clip-path: url(#clippath-30);
+      }
+
+      .cls-74 {
+        clip-path: url(#clippath-38);
+      }
+
+      .cls-75 {
+        clip-path: url(#clippath-31);
+      }
+
+      .cls-76 {
+        clip-path: url(#clippath-50);
+      }
+
+      .cls-77 {
+        clip-path: url(#clippath-51);
+      }
+
+      .cls-78 {
+        clip-path: url(#clippath-14);
+      }
+
+      .cls-79 {
+        clip-path: url(#clippath-13);
+      }
+
+      .cls-80 {
+        clip-path: url(#clippath-12);
+      }
+
+      .cls-81 {
+        clip-path: url(#clippath-10);
+      }
+
+      .cls-82 {
+        clip-path: url(#clippath-15);
+      }
+
+      .cls-83 {
+        clip-path: url(#clippath-17);
+      }
+
+      .cls-84 {
+        clip-path: url(#clippath-16);
+      }
+
+      .cls-85 {
+        clip-path: url(#clippath-19);
+      }
+
+      .cls-86 {
+        clip-path: url(#clippath-11);
+      }
+
+      .cls-87 {
+        clip-path: url(#clippath-18);
+      }
+
+      .cls-88 {
+        letter-spacing: -.23em;
+      }
+
+      .cls-89 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-90 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-11 {
+        opacity: .72;
+      }
+
+      .cls-12 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-91 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-92 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-15 {
+        letter-spacing: -.18em;
+      }
+
+      .cls-93 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-16 {
+        font-size: 30px;
+      }
+
+      .cls-94 {
+        letter-spacing: -.15em;
+      }
+
+      .cls-28 {
+        fill: #f9fcf3;
+      }
+
+      .cls-95 {
+        letter-spacing: -.25em;
+      }
+
+      .cls-96 {
+        letter-spacing: 0em;
+      }
+
+      .cls-18 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-29 {
+        fill: #fff;
+      }
+
+      .cls-19 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-97 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-98 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-99 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-20 {
+        letter-spacing: -.02em;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-24" width="1210.1" height="817.5"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-24" x="-51.76" width="1440" height="810"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-24" x="-51.76" width="1440" height="810"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-24" x="-51.76" width="1440" height="817.5"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-24" x="-51.76" width="1440" height="810"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="cls-24" x="-51.76" width="1440" height="810"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="cls-24" x="324.97" y="167.47" width="543.72" height="475.06"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <polygon class="cls-24" points="596.43 167.47 867.89 642.53 324.97 642.53 596.43 167.47"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect class="cls-24" x="-51.76" width="1440" height="817.5"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <rect class="cls-24" x="-51.76" width="1440" height="810"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <rect class="cls-24" x="-51.76" width="1440" height="810"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <rect class="cls-24" x="443.99" y="15.03" width="304.88" height="304.87"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <circle class="cls-24" cx="596.43" cy="167.47" r="152.44"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <rect class="cls-24" x="-51.76" width="1440" height="817.5"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <rect class="cls-24" x="-51.76" width="1440" height="810"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <rect class="cls-24" x="-51.76" width="1440" height="810"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <rect class="cls-24" x="443.99" y="15.03" width="305.25" height="305.25"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <rect class="cls-24" x="443.99" y="15.03" width="304.88" height="304.87"/>
+    </clipPath>
+    <clipPath id="clippath-18">
+      <circle class="cls-24" cx="596.43" cy="167.47" r="152.44"/>
+    </clipPath>
+    <clipPath id="clippath-19">
+      <rect class="cls-24" x="-51.76" width="1440" height="810"/>
+    </clipPath>
+    <clipPath id="clippath-20">
+      <rect class="cls-24" x="469.52" y="40.56" width="253.68" height="253.68"/>
+    </clipPath>
+    <clipPath id="clippath-21">
+      <rect class="cls-24" x="469.71" y="40.75" width="253.45" height="253.45"/>
+    </clipPath>
+    <clipPath id="clippath-22">
+      <circle class="cls-24" cx="596.43" cy="167.47" r="126.72"/>
+    </clipPath>
+    <clipPath id="clippath-23">
+      <rect class="cls-24" x="-51.76" width="1440" height="817.5"/>
+    </clipPath>
+    <clipPath id="clippath-24">
+      <rect class="cls-24" x="-51.76" width="1440" height="810"/>
+    </clipPath>
+    <clipPath id="clippath-25">
+      <rect class="cls-24" x="-51.76" width="1440" height="810"/>
+    </clipPath>
+    <clipPath id="clippath-26">
+      <rect class="cls-24" x="100.73" y="486.75" width="304.87" height="304.88"/>
+    </clipPath>
+    <clipPath id="clippath-27">
+      <circle class="cls-24" cx="253.17" cy="639.19" r="152.44"/>
+    </clipPath>
+    <clipPath id="clippath-28">
+      <rect class="cls-24" x="-51.76" width="1440" height="817.5"/>
+    </clipPath>
+    <clipPath id="clippath-29">
+      <rect class="cls-24" x="-51.76" width="1440" height="810"/>
+    </clipPath>
+    <clipPath id="clippath-30">
+      <rect class="cls-24" x="-51.76" width="1440" height="810"/>
+    </clipPath>
+    <clipPath id="clippath-31">
+      <rect class="cls-24" x="100.73" y="486.75" width="305.25" height="305.25"/>
+    </clipPath>
+    <clipPath id="clippath-32">
+      <rect class="cls-24" x="100.73" y="486.75" width="304.87" height="304.88"/>
+    </clipPath>
+    <clipPath id="clippath-33">
+      <circle class="cls-24" cx="253.17" cy="639.19" r="152.44"/>
+    </clipPath>
+    <clipPath id="clippath-34">
+      <rect class="cls-24" x="-51.76" width="1440" height="817.5"/>
+    </clipPath>
+    <clipPath id="clippath-35">
+      <rect class="cls-24" x="-51.76" width="1440" height="810"/>
+    </clipPath>
+    <clipPath id="clippath-36">
+      <rect class="cls-24" x="-51.76" width="1440" height="810"/>
+    </clipPath>
+    <clipPath id="clippath-37">
+      <rect class="cls-24" x="808.44" y="486.75" width="304.88" height="304.88"/>
+    </clipPath>
+    <clipPath id="clippath-38">
+      <circle class="cls-24" cx="960.88" cy="639.19" r="152.44" transform="translate(-170.54 866.66) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-39">
+      <rect class="cls-24" x="-51.76" width="1440" height="817.5"/>
+    </clipPath>
+    <clipPath id="clippath-40">
+      <rect class="cls-24" x="-51.76" width="1440" height="810"/>
+    </clipPath>
+    <clipPath id="clippath-41">
+      <rect class="cls-24" x="-51.76" width="1440" height="810"/>
+    </clipPath>
+    <clipPath id="clippath-42">
+      <rect class="cls-24" x="808.44" y="486.75" width="305.25" height="305.25"/>
+    </clipPath>
+    <clipPath id="clippath-43">
+      <rect class="cls-24" x="808.44" y="486.75" width="304.88" height="304.88"/>
+    </clipPath>
+    <clipPath id="clippath-44">
+      <circle class="cls-24" cx="960.88" cy="639.19" r="152.44" transform="translate(-170.54 866.66) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-45">
+      <rect class="cls-24" x="-51.76" width="1440" height="810"/>
+    </clipPath>
+    <clipPath id="clippath-46">
+      <rect class="cls-24" x="126.32" y="515.76" width="253.68" height="253.68"/>
+    </clipPath>
+    <clipPath id="clippath-47">
+      <rect class="cls-24" x="126.45" y="515.81" width="253.45" height="253.45"/>
+    </clipPath>
+    <clipPath id="clippath-48">
+      <circle class="cls-24" cx="253.17" cy="642.53" r="126.72"/>
+    </clipPath>
+    <clipPath id="clippath-49">
+      <rect class="cls-24" x="834.08" y="512.4" width="253.68" height="253.68"/>
+    </clipPath>
+    <clipPath id="clippath-50">
+      <rect class="cls-24" x="834.15" y="512.46" width="253.45" height="253.45"/>
+    </clipPath>
+    <clipPath id="clippath-51">
+      <circle class="cls-24" cx="960.88" cy="639.19" r="126.72" transform="translate(-170.54 866.66) rotate(-45)"/>
+    </clipPath>
+  </defs>
+  <g id="_レイヤー_2-2" data-name=" レイヤー 2">
+    <g class="cls-22">
+      <g>
+        <g class="cls-34">
+          <rect class="cls-29" x="-51.76" width="1440" height="810"/>
+        </g>
+        <g class="cls-37">
+          <rect class="cls-29" x="-51.76" width="1440" height="810"/>
+        </g>
+        <g class="cls-36">
+          <g class="cls-35">
+            <g class="cls-41">
+              <g class="cls-40">
+                <g class="cls-38">
+                  <rect class="cls-27" x="324.97" y="167.47" width="543.72" height="475.06"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g class="cls-39">
+          <g class="cls-42">
+            <g class="cls-81">
+              <g class="cls-86">
+                <g class="cls-80">
+                  <rect class="cls-28" x="443.99" y="15.03" width="304.88" height="304.87"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g class="cls-79">
+          <g class="cls-78">
+            <g class="cls-82">
+              <g class="cls-84">
+                <g class="cls-83">
+                  <g class="cls-87">
+                    <circle class="cls-26" cx="596.43" cy="167.47" r="152.44"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g class="cls-85">
+          <g>
+            <g class="cls-11">
+              <g class="cls-46">
+                <g class="cls-47">
+                  <g class="cls-50">
+                    <rect class="cls-29" x="469.71" y="40.75" width="253.45" height="253.45"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g class="cls-17">
+              <text class="cls-3" transform="translate(403.02 100.13)"><tspan x="0" y="0">髪</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-12" transform="translate(453.99 100.13)"><tspan x="0" y="0">を</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-3" transform="translate(496.61 100.13)"><tspan x="0" y="0">美</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-7" transform="translate(543.4 100.13)"><tspan x="0" y="0">し</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-15" transform="translate(585.53 100.13)"><tspan x="0" y="0">く</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-3" transform="translate(626.09 100.13)"><tspan x="0" y="0">見</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-3" transform="translate(678.08 100.13)"><tspan x="0" y="0">せ</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-13" transform="translate(726.45 100.13)"><tspan x="0" y="0">る</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g class="cls-49">
+          <g class="cls-48">
+            <g class="cls-51">
+              <g class="cls-64">
+                <g class="cls-62">
+                  <rect class="cls-28" x="100.73" y="486.75" width="304.87" height="304.88"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g class="cls-63">
+          <g class="cls-65">
+            <g class="cls-73">
+              <g class="cls-75">
+                <g class="cls-72">
+                  <g class="cls-71">
+                    <circle class="cls-26" cx="253.17" cy="639.19" r="152.44"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g class="cls-66">
+          <g class="cls-67">
+            <g class="cls-68">
+              <g class="cls-69">
+                <g class="cls-74">
+                  <rect class="cls-28" x="808.44" y="486.75" width="304.88" height="304.88"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g class="cls-70">
+          <g class="cls-54">
+            <g class="cls-56">
+              <g class="cls-55">
+                <g class="cls-58">
+                  <g class="cls-52">
+                    <circle class="cls-25" cx="960.88" cy="639.19" r="152.44" transform="translate(-170.54 866.66) rotate(-45)"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g class="cls-53">
+          <g>
+            <g class="cls-11">
+              <g class="cls-59">
+                <g class="cls-57">
+                  <g class="cls-60">
+                    <rect class="cls-29" x="126.45" y="515.81" width="253.45" height="253.45"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g class="cls-11">
+              <g class="cls-61">
+                <g class="cls-76">
+                  <g class="cls-77">
+                    <rect class="cls-29" x="834.15" y="512.46" width="253.45" height="253.45"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g class="cls-17">
+              <text class="cls-4" transform="translate(501.07 178.98)"><tspan x="0" y="0">ヘ</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-19" transform="translate(533.28 178.98)"><tspan x="0" y="0">ア</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-9" transform="translate(565.12 178.98)"><tspan x="0" y="0">デ</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-4" transform="translate(598.7 178.98)"><tspan x="0" y="0">ザ</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-6" transform="translate(632.31 178.98)"><tspan x="0" y="0">イ</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-20" transform="translate(659.94 178.98)"><tspan x="0" y="0">ン</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-16" transform="translate(469.36 248.77)"><tspan class="cls-91" x="0" y="0">カ</tspan><tspan class="cls-88" x="27" y="0">ッ</tspan><tspan class="cls-43" x="50.1" y="0">ト</tspan><tspan class="cls-95" x="70.5" y="0">・</tspan><tspan class="cls-96" x="93" y="0">パ</tspan><tspan class="cls-23" x="122.7" y="0">ー</tspan><tspan class="cls-95" x="152.1" y="0">マ</tspan><tspan class="cls-31" x="174.6" y="0">・</tspan><tspan class="cls-97" x="196.2" y="0">カ</tspan><tspan class="cls-32" x="224.1" y="0">ラ</tspan><tspan class="cls-96" x="252.3" y="0">ー</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-10" transform="translate(414.91 430.22)"><tspan x="0" y="0">オ</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-5" transform="translate(475.43 430.22)"><tspan x="0" y="0">ト</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-10" transform="translate(533.55 430.22)"><tspan x="0" y="0">ナ</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-2" transform="translate(602.49 430.22)"><tspan x="0" y="0">女</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-2" transform="translate(673.82 430.22)"><tspan x="0" y="0">性</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-2" transform="translate(745.15 430.22)"><tspan x="0" y="0">の</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-2" transform="translate(483.82 513.47)"><tspan x="0" y="0">ヘ</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-8" transform="translate(550.36 513.47)"><tspan x="0" y="0">ア</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-10" transform="translate(616.3 513.47)"><tspan x="0" y="0">ケ</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-8" transform="translate(679.22 513.47)"><tspan x="0" y="0">ア</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-3" transform="translate(25.45 577.27)"><tspan x="0" y="0">生</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-14" transform="translate(74.84 577.27)"><tspan x="0" y="0">え</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-13" transform="translate(121.13 577.27)"><tspan x="0" y="0">て</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-3" transform="translate(167.93 577.27)"><tspan x="0" y="0">い</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-13" transform="translate(214.72 577.27)"><tspan x="0" y="0">る</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-3" transform="translate(261 577.27)"><tspan x="0" y="0">髪</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-3" transform="translate(313 577.27)"><tspan x="0" y="0">の</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-18" transform="translate(361.88 577.27)"><tspan x="0" y="0">ケ</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-13" transform="translate(406.58 577.27)"><tspan x="0" y="0">ア</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-16" transform="translate(80.08 708.43)"><tspan class="cls-30" x="0" y="0">エ</tspan><tspan class="cls-21" x="29.1" y="0">イ</tspan><tspan class="cls-33" x="56.7" y="0">ジ</tspan><tspan class="cls-90" x="84.9" y="0">ン</tspan><tspan class="cls-23" x="111.6" y="0">グ</tspan><tspan class="cls-99" x="141" y="0">ケ</tspan><tspan class="cls-1" x="168.9" y="0">ア</tspan><tspan class="cls-45" x="193.5" y="0">ト</tspan><tspan class="cls-92" x="218.7" y="0">リ</tspan><tspan class="cls-94" x="245.7" y="0">ー</tspan><tspan class="cls-89" x="271.2" y="0">ト</tspan><tspan class="cls-93" x="297.9" y="0">メ</tspan><tspan class="cls-44" x="325.2" y="0">ン</tspan><tspan class="cls-98" x="350.4" y="0">ト</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-3" transform="translate(772.74 577.27)"><tspan x="0" y="0">生</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-14" transform="translate(822.14 577.27)"><tspan x="0" y="0">え</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-13" transform="translate(868.42 577.27)"><tspan x="0" y="0">て</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-15" transform="translate(911.07 577.27)"><tspan x="0" y="0">く</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-13" transform="translate(948.51 577.27)"><tspan x="0" y="0">る</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-3" transform="translate(994.79 577.27)"><tspan x="0" y="0">髪</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-3" transform="translate(1046.79 577.27)"><tspan x="0" y="0">の</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-18" transform="translate(1095.66 577.27)"><tspan x="0" y="0">ケ</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-13" transform="translate(1140.37 577.27)"><tspan x="0" y="0">ア</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-16" transform="translate(139.57 758.25)"><tspan x="0" y="0">酸化物質の除去</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-4" transform="translate(164.97 647.38)"><tspan x="0" y="0">毛</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-4" transform="translate(203.46 647.38)"><tspan x="0" y="0">髪</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-4" transform="translate(241.95 647.38)"><tspan x="0" y="0">改</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-4" transform="translate(280.45 647.38)"><tspan x="0" y="0">善</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-4" transform="translate(896.65 655.65)"><tspan x="0" y="0">頭</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-4" transform="translate(935.14 655.65)"><tspan x="0" y="0">皮</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-4" transform="translate(973.64 655.65)"><tspan x="0" y="0">改</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-4" transform="translate(1012.13 655.65)"><tspan x="0" y="0">善</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-16" transform="translate(837.49 708.43)"><tspan x="0" y="0">幽霊毛細血管の活性</tspan></text>
+            </g>
+            <g class="cls-17">
+              <text class="cls-16" transform="translate(856.48 758.25)"><tspan x="0" y="0">老化物質の除去</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
