@@ -4,8 +4,15 @@ $device_sp: 750;
 $breakpoint-tablet: 1141px;
 $breakpoint-mobile: 769px;
 
+.inner {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
 #content {
-    @media only screen and (max-width: 800px){
+    @media only screen and (max-width: 800px) {
         padding-top: 0;
     }
 }
@@ -19,7 +26,7 @@ $breakpoint-mobile: 769px;
         left: calc(50 / #{$device_pc} * 100vw);
         z-index: 2;
         color: #fff;
-        text-shadow:3px 2px 0px rgb(214, 194, 173);
+        text-shadow: 3px 2px 0px rgb(214, 194, 173);
     }
 }
 
@@ -32,7 +39,98 @@ $breakpoint-mobile: 769px;
             line-height: 1.4;
             letter-spacing: .1em;
             color: #c78e00;
+            margin: 0;
+        }
+
+        &__text {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+
+        &__subtitle {
+            font-size: 28px;
+            letter-spacing: 0.075em;
+            padding-bottom: 1vw;
+            margin-top: 45px;
+        }
+
+        &__img {
+            width: 750px;
+
+            img {
+                width: 100%;
+            }
         }
     }
+
+}
+
+#TROUBLE,
+.trouble_block {
+    margin-top: 120px;
+
+    h2 {
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 1.4;
+        letter-spacing: .1em;
+        color: #000;
+        margin: 0;
+    }
+
+    .inner {
+        margin-top: 40px;
+    }
+
+    .article {
+        gap: 50px;
+
+        &::after {
+            display: none;
+        }
+    }
+
+    .troubleTop,
+    .troubleUnder {
+        li {
+            font-size: 16px;
+
+            +li {
+                margin-top: 3px;
+            }
+
+            span {
+                background-size: 1em;
+                padding-left: 1.5em;
+            }
+        }
+    }
+
+    &__contents {
+        .trouble_section {
+            +.trouble_section {
+                margin-top: 70px;
+            }
+
+            &__title {
+                font-family: "serif";
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 1.4;
+                letter-spacing: 0.1em;
+                color: #c78e00;
+            }
+
+            &__img {
+                max-width: 950px;
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
 
 }
