@@ -27,7 +27,7 @@ const aliasSetting = {
 };
 
 export const deploy = {
-    input: './src/js/app.ts',
+    input: './src/js/app.js',
     output: {
         file: './public/js/bundle.js',
         format: 'esm',
