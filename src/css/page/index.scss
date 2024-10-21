@@ -678,7 +678,6 @@ section {
               font-size: 18px;
             }
           }
-
         }
       }
 
@@ -1009,6 +1008,42 @@ section {
       font-size: 18px;
       font-weight: 500;
       max-width: 400px;
+    }
+  }
+}
+
+.reserve_block {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #efebe6;
+  display: none;
+  gap: calc(12 / #{$device_sp} * 100vw);
+  align-items: center;
+  justify-content: center;
+  padding: calc(18 / #{$device_sp} * 100vw) calc(14 / #{$device_sp} * 100vw);
+  z-index: 100;
+  @include sp {
+    display: flex;
+  }
+  
+
+  &__btn {
+    color: #fff;
+    font-weight: 500;
+    font-size: calc(27 / #{$device_sp} * 100vw);
+    padding: calc(20 / #{$device_sp} * 100vw) calc(40 / #{$device_sp} * 100vw) calc(21 / #{$device_sp} * 100vw);
+    display: inline-block;
+    border-radius: 100px;
+
+    &.asaka {
+      background: #c59f98;
+    }
+
+    &.wako {
+      background: #b8a576;
     }
   }
 }

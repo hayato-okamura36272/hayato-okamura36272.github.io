@@ -8,7 +8,7 @@
     "dev": "gulp",
     "build": "NODE_ENV=production gulp build",
     "preview": "NODE_ENV=production gulp production",
-    "deploy": "pnpm run build && gh-pages -d public -b deploy"
+    "deploy": "pnpm run build && gh-pages -d public -b gh-pages"
   },
   "engines": {
     "node": "18.x",
