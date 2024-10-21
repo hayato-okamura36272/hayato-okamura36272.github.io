@@ -157,13 +157,12 @@ const buildStatic = (done) => {
 /*
  * Image
  */
-const Imagemin = (done) => {
-    src(paths.images.src)
+const Imagemin = () => {
+    return src(paths.images.src)
         .pipe(changed(paths.images.dest))
         .pipe(imagemin([mozjpeg({ quality: 90 })]))
         .pipe(dest(paths.images.dest))
-    .pipe(server.stream());
-    done();
+        .pipe(server.stream());
 };
 
 const watchFiles = () => {
