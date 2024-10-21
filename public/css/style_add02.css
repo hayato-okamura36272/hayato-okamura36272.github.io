@@ -134,10 +134,6 @@ a:not([class]) {
   cursor: auto;
 }
 
-:where(input[type=file])::-webkit-file-upload-button {
-  cursor: pointer;
-}
-
 :where(input[type=file])::-webkit-file-upload-button,
 :where(input[type=file])::file-selector-button {
   cursor: pointer;
@@ -149,13 +145,6 @@ a:not([class]) {
 }
 
 /* ユーザーがボタンのテキストを選択できないようにする */
-:where(input[type=file])::-webkit-file-upload-button {
-  -webkit-tap-highlight-color: transparent;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-          user-select: none;
-  text-align: center;
-}
 :where(button, button[type], input[type=button], input[type=submit], input[type=reset]),
 :where(input[type=file])::-webkit-file-upload-button,
 :where(input[type=file])::file-selector-button {
@@ -305,7 +294,6 @@ section h2::before {
 #CONCEPT .article .article_head__img {
   max-width: 500px;
   width: 100%;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   position: relative;

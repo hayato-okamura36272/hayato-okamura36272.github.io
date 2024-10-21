@@ -8,10 +8,7 @@
     "dev": "gulp",
     "build": "NODE_ENV=production gulp build",
     "preview": "NODE_ENV=production gulp production",
-    "deploy": "pnpm run dev && gh-pages -d public -b deploy"
-  },
-  "volta": {
-    "node": "18.20.0"
+    "deploy": "pnpm run build && gh-pages -d public -b gh-pages"
   },
   "engines": {
     "node": "18.x",
@@ -70,4 +67,5 @@
     "gulp-rev": "^11.0.0",
     "youtube-player": "5.6.0"
   }
+ 
 }

@@ -126,7 +126,6 @@ section h2::before {
 #CONCEPT .article .article_head__img {
   max-width: 500px;
   width: 100%;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   position: relative;
