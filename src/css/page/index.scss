@@ -11,7 +11,7 @@ $breakpoint-mobile: 769px;
 }
 
 @mixin sp {
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 769px) {
     @content;
   }
 }
@@ -439,7 +439,7 @@ section {
           width: 100%;
           @include sp {
             gap: 10px;
-            flex-direction: column;
+            // flex-direction: column;
           }
         }
 
