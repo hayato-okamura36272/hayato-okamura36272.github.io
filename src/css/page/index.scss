@@ -964,6 +964,7 @@ section {
         opacity: 0;
         visibility: hidden;
         height: 100%;
+        width: 100%;
         object-fit: cover;
         clip-path: inset(0 100% 0 0);
         transition: clip-path 0.7s ease, opacity 0.5s ease-in-out,
