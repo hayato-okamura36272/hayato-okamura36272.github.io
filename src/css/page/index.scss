@@ -75,6 +75,81 @@ section {
   }
 }
 
+.reserve_modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  opacity: 0;
+  display: flex;
+  visibility: hidden;
+  align-items: flex-end;
+  justify-content: center;
+  background: #00000048;
+  transition: opacity .3s ease, visibility .3s ease;
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  &__inner {
+    border-radius: 10px;
+    background: #fff;
+    width: 50%;
+    display: flex;
+    gap: 30px;
+    padding: 20px 50px 30px;
+    margin-bottom: 50px;
+  }
+
+  &__content {
+    flex: 1 1 auto;
+    width: 40%;
+  }
+
+  &__title {
+    text-align: center;
+    font-family: "Noto Serif JP", serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.1em;
+    color: #000;
+  }
+
+  &__link {
+    font-family: "Noto Sans JP", serif;
+    display: block;
+    padding: 20px;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    transition: opacity .2s;
+    &:hover {
+      opacity: .7;
+    }
+    &--tel {
+      background: #bda755;
+    }
+    
+    &--web {
+      background: #c59f98;
+    }
+
+    + .reserve_modal__link {
+      margin-top: 15px;
+    }
+  }
+}
+
 .inner {
   max-width: 1280px;
   width: 100%;
@@ -89,21 +164,6 @@ section {
 }
 
 .swiper {
-  &__logo {
-    width: calc(320 / #{$device_pc} * 100vw);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    opacity: 0;
-    animation: showObj 1s 3s ease forwards;
-    img {
-      filter: drop-shadow(5px 5px 5px #00000050);
-      width: 100%;
-    }
-  }
-
   &__title {
     width: calc(500 / #{$device_pc} * 100vw);
     position: absolute;
@@ -111,8 +171,8 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    // opacity: 0;
-    animation: hiddenObj 1s 2s ease-in-out forwards;
+    opacity: 0;
+    animation: showObj 1s 0.2s ease-in-out forwards;
 
     img {
       width: 100%;
@@ -125,15 +185,6 @@ section {
     }
     100% {
       opacity: 1;
-    }
-  }
-
-  @keyframes hiddenObj {
-    0% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
     }
   }
 
@@ -343,6 +394,7 @@ section {
   #TROUBLE01,
   #TROUBLE02,
   #TROUBLE03 {
+    overflow: hidden;
     .article {
       margin-left: 10px;
       &::after {
@@ -436,7 +488,8 @@ section {
         &__sample {
           display: flex;
           gap: 20px;
-          width: 100%;
+          // margin: 0 calc(50% - 50vw);
+          // width: 100vw;
           @include sp {
             gap: 10px;
             // flex-direction: column;
@@ -444,8 +497,12 @@ section {
         }
 
         &__sample_item {
+          // width: 100%;
+          // aspect-ratio: 29 / 39;
           img {
+            // object-fit: cover;
             width: 100%;
+            // height: 100%;
           }
         }
 
@@ -597,7 +654,7 @@ section {
       }
 
       .trouble_qa {
-        margin-top: 100px;
+        margin-top: 80px;
         @include sp {
           margin-top: 60px;
         }
@@ -687,7 +744,8 @@ section {
         @include sp {
           margin-top: 60px;
         }
-        a {
+        p {
+          cursor: pointer;
           color: #fff;
           font-weight: 700;
           font-size: 21px;
@@ -711,6 +769,11 @@ section {
     }
   }
 
+  #TROUBLE01 {
+    background: #fffbf0;
+    padding: 80px 0;
+  }
+
   #TROUBLE02 {
     margin-top: 120px;
     @include sp {
@@ -720,8 +783,47 @@ section {
 
   #TROUBLE03 {
     margin-top: 120px;
+    background: #fffbf0;
+    padding: 80px 0;
     @include sp {
       margin-top: 60px;
+    }
+  }
+
+  .gallery_block {
+    margin: 80px calc(50% - 50vw);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: fit-content;
+    @include sp {
+      gap: 10px;
+      margin: 30px calc(50% - 50vw);
+    }
+    @keyframes slide {
+      0% {
+        transform: translateX(0%);
+      }
+
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    &__list {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      animation: slide 50s linear infinite;
+      gap: 20px;
+      @include sp {
+        gap: 10px;
+        width: 200vw;
+      }
+    }
+
+    &__item {
+
     }
   }
 }
@@ -738,7 +840,7 @@ section {
     display: flex;
     align-items: center;
     gap: 50px;
-    margin-top: -150px;
+    margin-top: -60px;
 
     @include tablet {
       margin-top: 0;
@@ -775,24 +877,22 @@ section {
     }
 
     p {
-      font-size: 23px;
+      font-size: 22px;
       margin: 15px 0 0 0;
       line-height: 1.8;
       @include sp {
         font-size: 18px;
         margin: 8px 0 0 0;
       }
-      span {
-        display: block;
-        font-size: 18px;
-        line-height: 1.5;
-        margin-top: 5px;
-        color: #606060;
-        padding-left: 1em;
+    }
+
+    ul {
+      margin: 15px 0 0 0;
+      li {
+        font-size: 20px;
+        line-height: 1.8;
         text-indent: -1em;
-        @include sp {
-          font-size: 12px;
-        }
+        padding-left: 1em;
       }
     }
 
@@ -834,16 +934,58 @@ section {
 }
 
 #PRICE {
+  .inner {
+    margin: 0;
+  }
+  .price_container {
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+    &__decoration {
+      position: sticky;
+      top: 0;
+      left: 0;
+      max-width: 520px;
+      width: 100%;
+      height: 100vh;
+      @include sp {
+        display: none;
+      }
+      &.slide-in {
+        img {
+          clip-path: inset(0);
+        }
+      }
+
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+        height: 100%;
+        object-fit: cover;
+        clip-path: inset(0 100% 0 0);
+        transition: clip-path 0.7s ease, opacity 0.5s ease-in-out,
+          visibility 0.5s ease-in-out;
+      }
+    }
+  }
   .price_section {
     // max-width: 1024px;
     width: 100%;
     margin: auto;
 
     + .price_section {
-      margin-top: 120px;
+      margin-top: 80px;
       @include sp {
         margin-top: 60px;
       }
+    }
+
+    &__contents {
+      max-width: 640px;
+      width: 100%;
     }
 
     &__title {
@@ -873,44 +1015,36 @@ section {
       + .price_section__item {
         margin-top: 35px;
       }
-      p {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: relative;
-        @include sp {
-          flex-direction: column;
-          gap: 8px;
-        }
+    }
 
-        &::before {
-          content: "";
-          width: 20px;
-          height: 20px;
-          background: #68482f;
-          display: block;
-          border-radius: 100%;
-          margin: 8px 20px 0 0;
-          align-self: flex-start;
-          @include sp {
-            display: none;
-          }
-        }
+    &__text {
+      font-size: 20px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      position: relative;
+      gap: 20px;
+      @include sp {
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-start;
       }
 
       span {
         display: inline-block;
         margin-left: auto;
         font-weight: 600;
+        white-space: nowrap;
       }
     }
 
     &__sub_list {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       gap: 10px;
       font-size: 18px;
-      margin-top: 8px;
+      margin-top: 12px;
       @include sp {
         flex-wrap: wrap;
         font-size: 12px;
@@ -922,12 +1056,37 @@ section {
     &__sub_item {
       background: #e3b6b0;
       padding: 3px 7px;
+      font-size: 15px;
+    }
+  }
+  .price_features {
+    margin-top: 20px;
+    &__item {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    &__text {
+      font-size: 16px;
+      margin-top: 5px;
+      min-width: 80px;
+      @include sp {
+        font-size: 18px;
+      }
+    }
+
+    &__stars {
+      span {
+        font-size: 20px;
+      }
     }
   }
   .voice_reserve {
     margin-top: 80px;
     text-align: center;
-    a {
+    p {
+      cursor: pointer;
       color: #fff;
       font-weight: 700;
       font-size: 21px;
@@ -949,8 +1108,13 @@ section {
   }
 }
 
+#VOICE {
+  margin-top: 100px;
+}
+
 #CONTACT {
-  padding-bottom: 180px;
+  background: #fffbf0;
+  padding: 50px 0 80px;
   @include sp {
     padding-bottom: 100px;
   }
@@ -1028,13 +1192,13 @@ section {
   @include sp {
     display: flex;
   }
-  
 
   &__btn {
     color: #fff;
     font-weight: 500;
     font-size: calc(27 / #{$device_sp} * 100vw);
-    padding: calc(20 / #{$device_sp} * 100vw) calc(40 / #{$device_sp} * 100vw) calc(21 / #{$device_sp} * 100vw);
+    padding: calc(20 / #{$device_sp} * 100vw) calc(40 / #{$device_sp} * 100vw)
+      calc(21 / #{$device_sp} * 100vw);
     display: inline-block;
     border-radius: 100px;
 
