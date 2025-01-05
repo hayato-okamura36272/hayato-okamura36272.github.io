@@ -105,11 +105,18 @@ section {
     gap: 30px;
     padding: 20px 50px 30px;
     margin-bottom: 50px;
+    @include sp {
+      width: 90%;
+      gap: 10px;
+      padding: 15px 25px 20px;
+    }
   }
 
   &__content {
     flex: 1 1 auto;
     width: 40%;
+    @include sp {
+    }
   }
 
   &__title {
@@ -120,6 +127,9 @@ section {
     line-height: 1.4;
     letter-spacing: 0.1em;
     color: #000;
+    @include sp {
+      font-size: 18px;
+    }
   }
 
   &__link {
@@ -133,6 +143,10 @@ section {
     font-size: 18px;
     font-weight: 700;
     transition: opacity .2s;
+    @include sp {
+      font-size: 14px;
+      padding: 15px;
+    }
     &:hover {
       opacity: .7;
     }
